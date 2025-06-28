@@ -36,7 +36,7 @@ images/
 
 ## 🔗 Live Demo
 
-👉 [https://your-username.github.io/your-repo-name](https://your-username.github.io/your-repo-name)
+👉https://vinaykumar501.github.io/Portfolio
 
 > Replace with your actual GitHub Pages link after uploading the site.
 
