@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/ceef83b22c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+     <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images\logo.jpg" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>STUDENT</p>
+          <h1>Hi,I'm <span>Vinay Kumar</span><br> From Kakinada</h1>
+        </div>
+      </div>
+     </div>
+
+
+     <div id="about">
+         <div class="container">
+          <div class="row">
+              <div class="about-col-1">
+                <img src="images\5.jpg">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1> 
+                <p>Hi! I’m Vinay Kumar, a passionate B.Tech IT student at JNTUK University. I love building websites, learning new technologies, and solving real-world problems with code.
+                   I’ve completed internships in Python development, explored AI and web development, and earned certificates from IBM, Microsoft, and NPTEL. When I’m not coding, I enjoy traveling, exploring business ideas, and thinking creatively.
+                  I'm currently working on sharpening my frontend and backend skills to become a full-stack developer.
+                </p>
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Programming languages</span><br>C++,C,Python,Java,Javascript</li>
+                    <li><span>Tools</span><br>Windows</li>
+                    <li><span>Technologies</span><br>HTML,CSS,SQL</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>May 2024-July 2024</span><br>AICTE Internship in Python Development provided by Nectt24tech</li>
+                    <li><span>April 2024-May 2024</span><br> Python Development Intern with Cognifyz Technologies</li>
+                    <li><span>Current</span><br>Full stack development Intern with CODTECH IT SOLUTIONS</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li><span>2022-2026</span><br>University College Of Engineering Kakinada<br>CGPA:7.7</li>
+                    <li><span>2020-2022</span><br>Narayana Junior College Kakinada<br>Percentage:86.6%</li>
+                    <li><span>2019-2020</span><br>Little Buds school Indrapalem,Kakinada<br>GPA:9.8</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+         </div>
+     </div>
+
+
+
+     <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Goals</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-person"></i>
+            <h2>Job</h2>
+            <p>I aim to secure a stable and rewarding job in my field that allows me to grow both professionally and personally. My goal is to work in a role where I can apply my skills, continue learning, and build a strong foundation for my career. A good job will help me gain financial independence and gain experience that prepares me for future opportunities.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-earth-americas"></i>
+            <h2> Travel</h2>
+            <p>>I want to explore new places, cultures, and experiences through travel. My goal is to visit different cities and countries to learn about their traditions, food, and way of life. Traveling will not only refresh my mind but also help me see the world from different perspectives, making me more open-minded and confident.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-briefcase"></i>
+            <h2> Own Business</h2>           
+            <p>My dream is to start and successfully run my own business. I want to build something from the ground up that reflects my ideas and passion. This goal is about taking control of my future, being independent, and creating opportunities for myself and others. I plan to start small, learn from each step, and grow it into something meaningful and profitable.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+
+      </div>
+     </div>
+
+     <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images\Clo-img.jpg">
+            <div class="layer">
+              <h3>Cloud computing certificate</h3>
+              <p>NPTEL Online Certificate ,awarded for successfully completing the course with a consolidated score of 80%</p>
+              <a href="images\Cloud computing.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/cog-img.jpg">
+            <div class="layer">
+            <h3>Cognifyz Technologies</h3>
+            <p> Python Development Intern with Cognifyz Technologies</p>
+              <a href="images/cogni.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+          <div class="work">
+            <img src="images\nex-img.jpg">
+            <div class="layer">
+            <h3>Next24tech</h3>
+            <p>AICTE Internship in Python Development provided by Nectt24tech</p>
+              <a href="images\next24 python.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        </div>
+        <a href="images\certificate" class="btn">See more</a>
+      </div>
+     </div>
+
+
+     <div id="contact">
+       <div class="container">
+        <div class="row">
+          <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:badithimanivinay@gmail.com">badithimanivinay@gmail.com</a></p>
+               <p><i class="fa-solid fa-phone"></i>90595799**</p>
+               <div class="social-icons">
+                <a href="https://www.facebook.com/vinay.b.961556"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_the_official_501/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vinay-kumar-badithimani-4746352b8/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://leetcode.com/u/vinaykumar___b/"><i class="fa-solid fa-code"></i></a>
+               </div>
+               <a href="images/FINAL.pdf" class="btn btn2" >Download Resume</a>
+          </div>
+          <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+          </div>
+        </div>
+       </div>
+       <div class="copyright">
+        <p>Copyright<i class="fa fa-copyright" aria-hidden="true"></i> made by vinay</p>
+       </div>
+     </div>
+     <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname)
+      {
+        for(tablink of tablinks)
+        {
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+
+      var sidemenu=document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+     </script>
+     <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycby8RO7xNuY5hikh__yWvNpTDbkBBuTuTUexSo4gRuokVGxk0I5XqWWdcF8PqGKsQRZI/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    
+  </body>
+</html>
